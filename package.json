@@ -16,7 +16,8 @@
   "browse": "index.ts",
   "scripts": {
     "dist": "webpack --mode development --config ./webpack.config.js",
-    "lint": "eslint"
+    "lint": "eslint",
+    "serve": "& ./PSScripts/Invoke-NgServe.ps1"
   },
   "dependencies": {
     "@pbkware/js-utils": "^0.8.2",
