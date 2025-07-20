@@ -1,6 +1,6 @@
 {
   "name": "@plxtra/highcharts-motif-extension",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Highcharts Motif extension",
   "private": true,
   "license": "Apache-2.0",
