@@ -834,6 +834,7 @@ export class Engine {
             }
         }
 
+        this._renderToElement.classList.add('highcharts-dark');
         // eslint-disable-next-line import-x/namespace
         this._chart = Highcharts.stockChart(this._renderToElement, chartOptions);
 

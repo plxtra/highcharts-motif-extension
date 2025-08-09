@@ -5,6 +5,7 @@ import 'highcharts/esm/modules/drag-panes.js';
 import 'highcharts/esm/modules/full-screen.js';
 import 'highcharts/esm/modules/price-indicator.js';
 import 'highcharts/esm/modules/stock-tools.js';
+import 'highcharts/esm/themes/adaptive.js';
 
 // import annotationsVisibleSvgMap from 'highcharts/gfx/stock-icons/annotations-visible.svg';
 // import arrowLineSvgMap from 'highcharts/gfx/stock-icons/arrow-line.svg';
@@ -37,6 +38,7 @@ import 'highcharts/esm/modules/stock-tools.js';
 // import rectangleSvgMap from 'highcharts/gfx/stock-icons/rectangle.svg';
 // import saveChartSvgMap from 'highcharts/gfx/stock-icons/save-chart.svg';
 // import segmentSvgMap from 'highcharts/gfx/stock-icons/segment.svg';
+// import separatorSvgMap from 'highcharts/gfx/stock-icons/separator.svg';
 // import seriesCandlestickSvgMap from 'highcharts/gfx/stock-icons/series-candlestick.svg';
 // import seriesHeikinAshiSvgMap from 'highcharts/gfx/stock-icons/series-heikin-ashi.svg';
 // import seriesHLCSvgMap from 'highcharts/gfx/stock-icons/series-hlc.svg';
@@ -59,8 +61,6 @@ import { SupportedSeriesType } from './supported-series-type';
 import 'highcharts/css/annotations/popup.css';
 import 'highcharts/css/highcharts.css';
 import 'highcharts/css/stocktools/gui.css';
-// import 'highcharts/css/themes/dark-unica.css';
-
 
 export interface Template {
     chartOptions: Highcharts.Options | undefined;

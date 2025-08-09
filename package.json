@@ -22,7 +22,7 @@
   "dependencies": {
     "@pbkware/js-utils": "^0.8.2",
     "@plxtra/motif-api": "^3.1.1",
-    "highcharts": "^12.2.0"
+    "highcharts": "^12.3.0"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
